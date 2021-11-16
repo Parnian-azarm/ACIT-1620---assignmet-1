@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <nav class="navstyle">
+        <ul>
+            <li class="numone">Contacts</li>  
+            <li class="twothree"><a href="newcontact.html">Create New Contact</a></li>
+            <li class="twothree">Favorites</li>
+        </ul>
+    </nav>
+    <form class="main" action="existingcontsct.html" method="post">
+        <img class="new" src="image/download.jpg" alt="contact image">
+        <ul>
+            <li>
+                <label for="name"></label>
+                <input id="silly" type="text" id="name" name="Contact Name" placeholder="Contact Name"> 
+            </li>
+            <li>
+                <label for="Phone"></label>
+                <input type="tel" id="phone" name="Contact Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Contact Phone">
+            </li>
+            <li>
+                <label for="msg"></label>
+                <input type="msg" id="address" name="Contact Address" placeholder="Contact Address">
+            </li>
+            <li>
+                <label for="mail"></label>
+                <input type="email" id="mail" name="Contact Email" placeholder="Contact Email">
+            </li>
+            
+            <button type="submit">Save Contact</button>
+            
+            <button><a href="contacts.html">Cancel</a></button>
+            
+        </ul>
+    </form>
+</body>
+</html>

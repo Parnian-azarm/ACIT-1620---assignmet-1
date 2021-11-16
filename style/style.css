@@ -1,0 +1,99 @@
+body {
+    background-color: #ebbcba;
+}
+.navstyle {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#eb6f92;
+    overflow-x: hidden;
+    padding-top: 60px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.numone {
+    border: 10px 6px 6px 32px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    overflow: hidden;
+}
+.twothree {
+    border: 6px 6px 6px 32px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    display: block;
+}
+
+.main {
+    margin-left: 300px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+
+form li {
+    border: 6px 6px 6px 6px 32px;
+    padding-top: 20px;
+    overflow-x: hidden;
+}
+
+form input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+}
+
+button {
+    margin-right: 10px;
+    margin-top: 20px;
+    font-family: monospace;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: #f2e9de;
+}
+
+
+.new {
+    border-radius: 50%;
+    width: 100px;
+    height: 90px;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.placeholder__jpg {
+    border-radius: 50%;
+    width:100px;
+    height: 90px;
+    margin-left: 200px;
+    margin-right: auto;
+    margin-top: -70px;
+    display: block;
+}
+
+h2 {
+    margin-top: 70px;
+}
+
+
+.contact {
+    padding-bottom: 50px;
+    padding-right: 40px;
+    border: 2px solid  #232136;
+    background-color: #f2e9de;    
+    margin-top: 100px;
+    margin-left: -30px;
+    margin-right: 50px;
+    overflow: hidden;
+    display: inline-flex;
+
+}
+
+a {
+    text-decoration: none;
+}
+
